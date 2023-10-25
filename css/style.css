@@ -296,10 +296,11 @@ a:focus {
 }
 
 .us_section {
-  background-image: url(../images/us-bg.jpg);
+  /* background-image: url(../images/us-bg.jpg); */
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
+  background-color: #252233;
 }
 
 .us_section .us_container {
@@ -321,7 +322,7 @@ a:focus {
   margin: 25px 10px 0 10px;
 }
 
-.us_section .us_container .box .img-box {
+.us_section .us_container .img-box {
   height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,7 +335,7 @@ a:focus {
           justify-content: center;
 }
 
-.us_section .us_container .box .img-box img {
+.us_section .us_container .img-box img {
   max-width: 100%;
 }
 
@@ -388,10 +389,11 @@ a:focus {
 }
 
 .trainer_section {
-  background-image: url(../images/trainer-bg.jpg);
+  /* background-image: url(../images/trainer-bg.jpg); */
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
+  background-color: #252233;
 }
 
 .trainer_section .box {
@@ -413,7 +415,17 @@ a:focus {
   font-weight: bold;
   margin-bottom: 15px;
 }
-
+.card{
+  margin-top: 10px;
+}
+.card-title{
+  font-weight: bold;
+  color: #000000;
+}
+.card-text{
+  font-weight: 400;
+  color: #000000;
+}
 .trainer_section .box .img-box {
   border-radius: 15px;
   overflow: hidden;
@@ -592,3 +604,13 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+.img-box img{
+  width: 500px;
+}
+
+@media only screen and (max-width: 500px) {
+  .img-box img{
+    width: 300px;
+  }
+}
